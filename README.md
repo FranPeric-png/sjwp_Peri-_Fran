@@ -1,2 +1,6 @@
-# sjwp_Perić_Fran
+# sjwp\_Perić\_Fran
+
 vjezbe iz SJWP
+
+Fran Perić   
+
