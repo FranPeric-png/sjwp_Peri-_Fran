@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+    <form action="#" method="get"></form>
+    <label for="name"> Unesite ime:</label>
+    <input type="text" id="name" /> <br />
+    <label for="password"> lozinku</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Unesite lozinku"
+    />
+    <br />
+    <br />
+    <label for="email"> Unesite email:</label>
+    <input type="email" id="email" name="email" placeholder="Unesite email" />
+    <br />
+    <br />
+    <label for="date"> Unesite datum:</label>
+    <input type="date" id="date" name="date" placeholder="Unesite datum" />
+    <br />
+    <br />
+    <label for="color"> Unesite boju:</label>
+    <input type="color" id="color" name="color" placeholder="Unesite boju" />
+    <br />
+    <br />
+    <label for="file" name="file"> Odaberite datoteku:</label>
+    <input type="file" id="file" name="file" /> <br />
+    <input
+      type="tel"
+      id="tel"
+      name="tel"
+      placeholder="Unesite telefonski broj"
+    />
+    <br />
+    <label for="number"> Unesite broj:</label>
+    <p>odaberi najbolji klub:</p>
+    <input type="radio" id="radio1" name="radio" value="option1" />
+    <label for="radio1">Dinamo</label> <br />
+    <input type="radio" id="radio2" name="radio" value="option2" />
+    <label for="radio2">Hajduk</label>
+    <input type="radio" id="radio3" name="radio" value="option3" />
+    <label for="radio3">Osijek</label> <br />
+    <p>odaberi svoj najdraži klub:</p>
+    <input type="checkbox" id="checkbox1" name="checkbox" value="option1" />
+    <label for="checkbox1">Dinamo</label> <br />
+    <input type="checkbox" id="checkbox2" name="checkbox" value="option2" />
+    <label for="checkbox2">Hajduk</label>
+    <input type="checkbox" id="checkbox3" name="checkbox" value="option3" />
+
+    <input
+      type="telephone"
+      id="telephone"
+      pattern="0[0-9]{8}"
+      name="telephone"
+      placeholder="Unesite broj telefona"
+    />
+
+    <br />
+    <input type="submit" value="Pošalji" />
+    <input type="reset" value="obriši sve" /> <br />
+
+    <br />
+  </body>
+</html>
