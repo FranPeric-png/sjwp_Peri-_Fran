@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zastava Turske</title>
+    <style>
+      body {
+        background: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .zastava {
+        width: 600px;
+        height: 400px;
+        background: #e30a17;
+        position: relative;
+      }
+
+      .mjesec {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: white;
+        border-radius: 50%;
+        top: 125px;
+        left: 150px;
+      }
+
+      .mjesec::after {
+        content: "";
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        background: #e30a17;
+        border-radius: 50%;
+        top: -10px;
+        left: 35px;
+      }
+
+      .zvijezda {
+        position: absolute;
+        top: 170px;
+        left: 335px;
+        color: white;
+        font-size: 85px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="zastava">
+      <div class="mjesec"></div>
+      <div class="zvijezda">★</div>
+    </div>
+  </body>
+</html>
